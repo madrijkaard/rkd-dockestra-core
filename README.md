@@ -26,7 +26,7 @@ An *image* stores Dockerfile text, optionally linked to a GitHub repository and 
 The backend only serves JSON and the Django Admin. The web frontend and the Nginx reverse proxy live in a separate repository (`rkd-dockestra-web`) and are not part of this one.
 
 <p align="center">
-  <img src="docs/assets/dockestra-logo.png" alt="Dockestra logo" width="360">
+  <img src="docs/assets/dockestra-emblem.png" alt="Dockestra emblem" width="320">
 </p>
 
 ## 🧰 Technologies used
