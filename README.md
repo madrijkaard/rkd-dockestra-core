@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="docs/assets/dockestra-emblem.png" alt="Dockestra emblem" width="320">
+</p>
+
 # rkd-dockestra-core
 
 <p align="center">
@@ -24,10 +28,6 @@
 An *image* stores Dockerfile text, optionally linked to a GitHub repository and branch (public, or private with an encrypted token). A *setup* defines CPU, memory, an optional published port and an optional named volume. Creating an *instance* of a setup builds the image, starts a limited container named `<setup-code>-replica-<number>` and records it in SQLite. The project also ships the operator onboarding flow (the `RKD` superuser is created or recovered after a code sent to their email), Cloudflare Turnstile protection for the login, Docker/Compose files and deploy scripts.
 
 The backend only serves JSON and the Django Admin. The web frontend and the Nginx reverse proxy live in a separate repository (`rkd-dockestra-web`) and are not part of this one.
-
-<p align="center">
-  <img src="docs/assets/dockestra-emblem.png" alt="Dockestra emblem" width="320">
-</p>
 
 ## 🧰 Technologies used
 
