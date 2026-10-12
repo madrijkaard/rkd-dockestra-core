@@ -2,7 +2,7 @@
   <img src="docs/assets/dockestra-emblem.png" alt="Dockestra emblem" width="320">
 </p>
 
-# rkd-dockestra-core
+# Dockestra Core
 
 <p align="center">
   <img src="https://img.shields.io/badge/platform-Django-092E20?style=for-the-badge&logo=django&logoColor=white" alt="Django">
